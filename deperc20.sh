@@ -234,5 +234,8 @@ sed -i 's/0x[0-9a-fA-F]*,\?\s*//g' hardhat.config.js
 echo
 print_blue "PRIVATE_KEY has been removed from hardhat.config.js."
 echo
+print_blue "Pushing these files to your github Repo link"
+git add . && git commit -m "Initial commit" && git push origin main
+echo
 print_blue "Swisstronik token deplyment SUCESSFUL!"
 echo
