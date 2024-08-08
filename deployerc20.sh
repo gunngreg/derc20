@@ -237,5 +237,5 @@ echo
 print_blue "Pushing these files to your github Repo link"
 git add . && git commit -m "Initial commit" && git push origin main
 echo
-print_blue "Swisstronik token deplyment SUCESSFUL!"
+print_blue "----------------------------------------"
 echo
